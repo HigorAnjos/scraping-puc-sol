@@ -1,0 +1,26 @@
+{
+  "name": "scraping-puc-sol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HigorAnjos/scraping-puc-sol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HigorAnjos/scraping-puc-sol/issues"
+  },
+  "homepage": "https://github.com/HigorAnjos/scraping-puc-sol#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "puppeteer": "^14.4.1",
+    "puppeteer-core": "^14.4.1"
+  }
+}
