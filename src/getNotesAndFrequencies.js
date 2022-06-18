@@ -42,6 +42,9 @@ const getNotesAndFrequencies = async () => {
   }
   
   console.log('NOTAS', notas);
+  
+  browser.close();
+  return notas;
 };
 
 getNotesAndFrequencies();
