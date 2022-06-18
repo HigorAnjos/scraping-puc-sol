@@ -5,7 +5,7 @@ const matricula = process.env.MATRICULA;
 const senha = process.env.SENHA;
 
 const login = async (matricula, senha) => {
-  const browser = await puppeteer.launch({ headless: true }); // Inicia o navegador
+  const browser = await puppeteer.launch({ headless: false }); // Inicia o navegador
   const page = await browser.newPage();
   await page.goto('https://sol.pucgoias.edu.br/aluno/');
   await (await page.waitForSelector('#matricula')).type(matricula);
